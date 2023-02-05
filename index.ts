@@ -104,8 +104,10 @@ const ageAdd = ages.reduce((total, ages) => (total = ages)); // get total
 // console.log(ageAdd);
 
 // combine Methods
-const combined = ages.map((e) => e * 5).sort((a, b) => a -b).reduce((a));
+const combined = ages
+  .map((e) => e * 5)
+  .sort((a, b) => a - b)
+  .reduce((a, b) => a + b, 0);
 console.log(combined);
 
 // Thank YOU ❤🤡🦾🙋‍♂️😘🚴‍♂️🚴‍♀️🔚✔
- 
