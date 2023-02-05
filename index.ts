@@ -49,9 +49,9 @@ const companies = [
   },
 ];
 
-//  ??
+//  ❓❓❕🎈
 const assignment = (value: string) => {
-  for (let i = 0; i < companies.length; i++) {
+  for (let i = 0; i < companies.length; i++) { // I Need Elp 
     if (companies[i].name === value) {
       console.log(value);
       break;
