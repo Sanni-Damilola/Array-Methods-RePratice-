@@ -31,32 +31,33 @@ const companies = [
   },
 ];
 
-// for loop
 for (let i = 0; i < companies.length; i++) {
   // console.log(companies[i]);
-}
+} // for loop
 
-// forEach
 companies.forEach(function (e) {
   // console.log(e.name);
-});
+}); //
 
+let ages = [12, 45, 89, 20, 10]; // global
 
-// global 
-let ages = [12, 45, 89 ,20 ,10]
+const filter = ages.filter((e) => {
+  if (e >= 20) {
+    return true;
+  }
+}); // FIlter
+// console.log(filter);
 
-// FIlter
-const filter = 
+const arrowFunction = ages.filter((e) => e >= 20); // arrowFunction
+// console.log(arrowFunction);
 
-
-// without for loop
-let useForLoop: any = [];
-for (let i = 0; i < companies.length; i++) {
-  if (companies[i].end < 30) {
-    useForLoop.push(companies[i]);
-    console.log(useForLoop);
+let useForLoop: any = []; // empty array
+for (let i = 0; i < ages.length; i++) {
+  if (ages[i] < 30) {
+    useForLoop.push(ages[i]);
   } // *
-}
+} // Filter without for loop
+// console.log(useForLoop);
 
 // sort
 // reduce
