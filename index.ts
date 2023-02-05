@@ -92,12 +92,15 @@ const sortCompanies = companies.sort((a, b) => (a.start > b.start ? 1 : -1));
 
 // sort ages
 const sortAges1 = ages.sort();
-console.log(sortAges1);
+// console.log(sortAges1);
 
 const sortAges2 = ages.sort((a, b) => a - b); // acending order
 // console.log(sortAges2);
 const sortAges3 = ages.sort((a, b) => a - b); // decending order
-// console.log(sortAges3); 
+// console.log(sortAges3);
 
 // reduce
+const ageAdd = ages.reduce((total, ages) => (total = ages)); // get total
+// console.log(ageAdd); 
+
 
