@@ -108,6 +108,6 @@ const combined = ages
   .map((e) => e * 5)
   .sort((a, b) => a - b)
   .reduce((a, b) => a + b, 0);
-console.log(combined);
+console.log(combined); // cool
 
 // Thank YOU ❤🤡🦾🙋‍♂️😘🚴‍♂️🚴‍♀️🔚✔
