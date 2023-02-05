@@ -3,13 +3,13 @@ const companies = [
     name: "EDHF",
     category: "Charity",
     start: 2020,
-    end: 9090,
+    end: "Forever",
   },
   {
     name: "codeLab",
     category: "Technology",
     start: 2030,
-    end: 7070,
+    end: "Forever",
   },
   {
     name: "Company 3",
@@ -33,19 +33,19 @@ const companies = [
     name: "DA MI HELP",
     category: "Finace",
     start: 2010,
-    end: 10001000,
+    end: "Forever",
   },
   {
     name: "Sylvia",
     category: "Tech",
     start: 2025,
-    end: 2070,
+    end: "Forever",
   },
   {
     name: "Sunday",
     category: "Business",
     start: 2015,
-    end: 2070,
+    end: "Forever",
   },
 ];
 
