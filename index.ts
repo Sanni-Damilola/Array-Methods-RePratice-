@@ -49,9 +49,20 @@ const companies = [
   },
 ];
 
-for (let i = 0; i < companies.length; i++) {
-  // console.log(companies[i]);
-} // for loop
+//  ??
+const assignment = (value: string) => {
+  for (let i = 0; i < companies.length; i++) {
+    if (companies[i].name === value) {
+      console.log(value);
+      break;
+    } else {
+      console.log("Not Found");
+      break;
+    }
+  } // for loop
+}; // using the for Loop to Perform Filter Method
+
+assignment("Sunday");
 
 companies.forEach(function (e) {
   // console.log(e.name);
@@ -133,7 +144,7 @@ const ageAdd = ages.reduce((total, ages) => total + ages); // get total
 const combined = ages
   .map((e) => e * 5)
   .sort((a, b) => a - b)
-  .reduce((a, b) => a + b, 0);
-console.log(combined); // cool
+  .reduce((a, b) => a + b, 0); // cool
+// console.log(combined);
 
 // Thank YOU ❤🤡🦾🙋‍♂️😘🚴‍♂️🚴‍♀️🔚✔
