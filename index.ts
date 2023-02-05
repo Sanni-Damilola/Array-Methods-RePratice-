@@ -43,7 +43,7 @@ for (let i = 0; i < companies.length; i++) {
 
 companies.forEach(function (e) {
   // console.log(e.name);
-}); //
+}); 
 
 let ages = [12, 45, 89, 20, 10]; // global
 
