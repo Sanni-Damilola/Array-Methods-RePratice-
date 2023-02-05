@@ -38,11 +38,25 @@ for (let i = 0; i < companies.length; i++) {
 
 // forEach
 companies.forEach(function (e) {
-  console.log(e.name);
+  // console.log(e.name);
 });
 
-// FIlter
 
+// global 
+let ages = [12, 45, 89 ,20 ,10]
+
+// FIlter
+const filter = 
+
+
+// without for loop
+let useForLoop: any = [];
+for (let i = 0; i < companies.length; i++) {
+  if (companies[i].end < 30) {
+    useForLoop.push(companies[i]);
+    console.log(useForLoop);
+  } // *
+}
 
 // sort
 // reduce
