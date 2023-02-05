@@ -48,6 +48,15 @@ const filter = ages.filter((e) => {
 }); // FIlter
 // console.log(filter);
 
+const retailCompamie = companies.filter((e) => {
+  if (e.category == "Retail") {
+    return true;
+  }
+}); // filter 2
+// console.log(retailCompamie);  👇👇
+const retailCompamie2 = companies.filter((e) => e.category === "Retail"); // arrow functions
+// console.log(retailCompamie2); 
+
 const arrowFunction = ages.filter((e) => e >= 20); // arrowFunction
 // console.log(arrowFunction);
 
@@ -58,6 +67,6 @@ for (let i = 0; i < ages.length; i++) {
   } // *
 } // Filter without for loop
 // console.log(useForLoop);
-
+ 
 // sort
 // reduce
