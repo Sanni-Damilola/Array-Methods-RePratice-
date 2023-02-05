@@ -103,6 +103,7 @@ const sortAges3 = ages.sort((a, b) => a - b); // decending order
 const ageAdd = ages.reduce((total, ages) => (total = ages)); // get total
 // console.log(ageAdd); 
 
-
+// combine Methods
+const combined = ages.map()
 
 // Thank YOU ❤🤡🦾🙋‍♂️😘🚴‍♂️🚴‍♀️🔚✔
