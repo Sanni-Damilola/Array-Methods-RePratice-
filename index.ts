@@ -84,8 +84,20 @@ const companyNames1 = companies.map((e) => {
 const companyNames2 = companies.map((e) => {
   return `${e.name} [${e.start} - ${e.end}]`;
 }); // map companies and concat it with their start and end
-// console.log(companyNames2); 
-
+// console.log(companyNames2);
 
 // sort
+const sortCompanies = companies.sort((a, b) => (a.start > b.start ? 1 : -1));
+// console.log(sortCompanies); // start years
+
+// sort ages
+const sortAges1 = ages.sort();
+console.log(sortAges1);
+
+const sortAges2 = ages.sort((a, b) => a - b); // acending order
+// console.log(sortAges2);
+const sortAges3 = ages.sort((a, b) => a - b); // decending order
+// console.log(sortAges3); 
+
 // reduce
+
