@@ -104,3 +104,5 @@ const ageAdd = ages.reduce((total, ages) => (total = ages)); // get total
 // console.log(ageAdd); 
 
 
+
+// Thank YOU ❤🤡🦾🙋‍♂️😘🚴‍♂️🚴‍♀️🔚✔
