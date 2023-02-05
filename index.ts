@@ -41,7 +41,12 @@ const companies = [
     start: 2025,
     end: 2070,
   },
- 
+  {
+    name: "Sunday",
+    category: "Business",
+    start: 2015,
+    end: 2070,
+  },
 ];
 
 for (let i = 0; i < companies.length; i++) {
