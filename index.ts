@@ -30,3 +30,9 @@ const companies = [
     end: 2090,
   },
 ];
+
+
+// forEach
+// FIlter
+// sort
+// reduce
