@@ -63,10 +63,8 @@ const arrowFunction = ages.filter((e) => e >= 20); // arrowFunction
 const getEightesCompany = companies.filter((e) => e.start >= 2020); // filter 👈 👉 companies that start before 2021
 // console.log(getEightesCompany);
 
-const companiesThatLast10Years = companies.filter((e) => e.end >= 10);  // ✔😎 filter comapanies that last  10 years
+const companiesThatLast10Years = companies.filter((e) => e.end >= 10); // ✔😎 filter comapanies that last  10 years
 // console.log(companiesThatLast10Years);
-
-
 
 let useForLoop: any = []; // empty array
 for (let i = 0; i < ages.length; i++) {
@@ -75,6 +73,19 @@ for (let i = 0; i < ages.length; i++) {
   } // *
 } // Filter without for loop
 // console.log(useForLoop);
+
+// map
+// create array of company names
+const companyNames1 = companies.map((e) => {
+  return e.name;
+}); // map companies names
+// console.log(companyNames1);
+
+const companyNames2 = companies.map((e) => {
+  return `${e.name} [${e.start} - ${e.end}]`;
+}); // map companies and concat it with their start and end
+// console.log(companyNames2); 
+
 
 // sort
 // reduce
