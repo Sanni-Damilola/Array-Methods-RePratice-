@@ -33,10 +33,16 @@ const companies = [
 
 // for loop
 for (let i = 0; i < companies.length; i++) {
-  console.log(companies[i]);
+  // console.log(companies[i]);
 }
 
 // forEach
+companies.forEach(function (e) {
+  console.log(e.name);
+});
+
 // FIlter
+
+
 // sort
 // reduce
