@@ -53,12 +53,11 @@ const companies1 = [
 
 //  getOne
 const getOne = companies1.filter((e) => {
-  //   console.log(e.name === "Sunday");
   if (e.name === "codeLab") {
     return true;
   }
 });
-console.log(getOne);
+// console.log(getOne);
 
 // age
 let age = companies1.forEach((e) => {
@@ -74,3 +73,5 @@ let income = companies1.map((e) => {
 // total income
 const total_income = income.reduce((a, b) => a + b);
 // console.log(total_income);
+
+// console.log(companies1);
