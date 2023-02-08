@@ -1,4 +1,4 @@
-const companies = [
+const companies1 = [
   {
     name: "EDHF",
     category: "Charity",
@@ -51,12 +51,13 @@ const companies = [
 
 //  ❓❓❕🎈
 const assignment = (value: string) => {
-  for (let i = 0; i < companies.length; i++) { // I Need Elp 
+  for (let i = 0; i < companies.length; i++) {
+    // I Need Elp
     if (companies[i].name === value) {
-      console.log(value);
+      // console.log(value);
       break;
     } else {
-      console.log("Not Found");
+      // console.log("Not Found");
       break;
     }
   } // for loop
@@ -65,7 +66,7 @@ const assignment = (value: string) => {
 assignment("Sunday");
 
 companies.forEach(function (e) {
-  // console.log(e.name);
+  // console.log(e.name.toUpperCase());
 });
 
 let ages = [12, 45, 89, 20, 10]; // global
