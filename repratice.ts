@@ -54,7 +54,7 @@ const companies1 = [
 //  getOne
 const getOne = companies1.filter((e) => {
   //   console.log(e.name === "Sunday");
-  if (e.name === "Sunday") {
+  if (e.name === "codeLab") {
     return true;
   }
 });
