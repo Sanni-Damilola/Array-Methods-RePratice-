@@ -1,27 +1,31 @@
-const companies = [
+const companies1 = [
   {
     name: "EDHF",
     category: "Charity",
     start: 2020,
-    end: "Forever",
+    end: 3030,
+    income_per_month: 89900,
   },
   {
     name: "codeLab",
     category: "Technology",
-    start: 2030,
-    end: "Forever",
+    start: 2010,
+    end: 3000,
+    income_per_month: 20001,
   },
   {
     name: "Company 3",
     category: "Retail",
     start: 2010,
     end: 2040,
+    income_per_month: 50333,
   },
   {
     name: "Company 4",
     category: "Auto",
-    start: 2040,
-    end: 2010,
+    start: 2010,
+    end: 2040,
+    income_per_month: 10333,
   },
   {
     name: "Company 5",
@@ -33,15 +37,24 @@ const companies = [
     name: "DA MI HELP",
     category: "Finace",
     start: 2010,
-    end: "Forever",
+    end: 4040,
+    income_per_month: 35000,
   },
 
   {
     name: "Sunday",
     category: "Business",
     start: 2015,
-    end: "Forever",
+    end: 8080,
+    income_per_month: 18930,
   },
 ];
 
 
+// age
+let age = companies1.forEach((e) => {
+  console.log(`Name: ${e.name} : ${2023 - e.start}`);
+});
+
+
+// 

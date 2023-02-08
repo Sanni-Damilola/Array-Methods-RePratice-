@@ -1,4 +1,4 @@
-const companies1 = [
+const companies= [
   {
     name: "EDHF",
     category: "Charity",
