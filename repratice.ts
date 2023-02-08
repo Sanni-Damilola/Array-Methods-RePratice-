@@ -51,9 +51,18 @@ const companies1 = [
   },
 ];
 
+//  getOne
+const getOne = companies1.filter((e) => {
+  //   console.log(e.name === "Sunday");
+  if (e.name === "Sunday") {
+    return true;
+  }
+});
+console.log(getOne);
+
 // age
 let age = companies1.forEach((e) => {
-  //   console.log(`Name: ${e.name} : ${2023 - e.start}`);
+  // console.log(`Name: ${e.name} : ${2023 - e.start}`);
 });
 
 // income
@@ -64,4 +73,4 @@ let income = companies1.map((e) => {
 
 // total income
 const total_income = income.reduce((a, b) => a + b);
-console.log(total_income);
+// console.log(total_income);
