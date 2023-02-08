@@ -32,6 +32,7 @@ const companies1 = [
     category: "Finace",
     start: 2010,
     end: 2090,
+    income_per_month: 3000,
   },
   {
     name: "DA MI HELP",
@@ -50,11 +51,17 @@ const companies1 = [
   },
 ];
 
-
 // age
 let age = companies1.forEach((e) => {
-  console.log(`Name: ${e.name} : ${2023 - e.start}`);
+  //   console.log(`Name: ${e.name} : ${2023 - e.start}`);
 });
 
+// income
+let income = companies1.map((e) => {
+  return e.income_per_month;
+  //   console.log(`Name: ${e.name} Income: ${e.income_per_month}`);
+});
 
-// 
+// total income
+const total_income = income.reduce((a, b) => a + b);
+console.log(total_income);
